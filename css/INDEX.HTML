@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form elements</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Registration form</legend>
+        <form action="register.php" method="POST">
+            <table width="400" align="center">
+                <tr>
+                    <th><label for="username">Username:</label></th>
+                    <td><input type="text" name="uname" id="username" value="abc" required /></td>
+                </tr>
+                <tr>
+                    <th><label for="pwd">Password:</label></th>
+                    <td><input type="password" name="pass" id="pwd" placeholder="eg:abc123@" required/>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="email" name="emailaddr" id="email" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="mobile">Mobile:</label></th>
+                    <td><input type="number" name="mobile" id="mobile" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="dob">DOB:</label></th>
+                    <td><input type="date" name="dob" id="dob" /></td>
+                </tr>
+                <tr>
+                    <th><label for="favcolor">Color:</label></th>
+                    <td><input type="color" name="favcolor" id="favcolor"/></td>
+                </tr>
+                <tr>
+                    <th><label for="web">Website:</label></th>
+                    <td><input type="url" name="web" id="web" /></td>
+                </tr>
+                <tr>
+                    <th><label for="logo">Logo:</label></th>
+                    <td><input type="file" name="logo" id="logo" /></td>
+                </tr>
+                <tr>
+                    <th><label for="address">Address:</label></th>
+                    <td>
+                        <textarea name="address" rows="4" cols="25">itvedant thane</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        <input type="radio" name="gender" value="m" id="male" checked/>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="f" id="female"/><label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Courses:</th>
+                    <td>
+                        <input type="checkbox" name="courses" value="html" id="html"/>
+                        <label for="html">HTML</label>
+                        <input type="checkbox" name="courses" value="css" id="css" checked/><label for="css">CSS</label>
+                        <input type="checkbox" name="courses" value="js" id="js"/><label for="js">JS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>City:</th>
+                    <td>
+                        <select name="city" multiple>
+                            <option value="1">Mumbai</option>
+                            <option value="2">Pufe</option>
+                            <option value="3" selected>Thane</option>
+                            <option value="4">Nashik</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="register" value="Register Now"/></td>
+                </tr>
+            </table>
+            
+        </form>
+    </fieldset>
+    </body>
+</html>
