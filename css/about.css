@@ -91,6 +91,9 @@ nav ul li a{
     border:2px solid #373636;
     color:#373636;
 }
+a{
+    color: #ffffff;
+}
  .down-resume{
      background-color: #220202;
      color:#FFFFFF;
