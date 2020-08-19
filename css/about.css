@@ -160,13 +160,13 @@ a{
      height: 30px;
  }
  @media (min-width:992px) and (max-width:1200px){ #body{
-       color: #ce6565}
+       color: #9c7474}
  }
 @media (max-width:768px){#body{
-    color: #962d2d}
+    color: #440606}
 }
 
 @media (min-width:1200px){#body{
-    color: #521414}
+    color: #b63737}
 }
 
